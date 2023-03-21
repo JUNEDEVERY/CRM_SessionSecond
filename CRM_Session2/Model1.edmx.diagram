@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9a0df9efa3a14366b12558175b617e48" Name="Diagram1">
+        <EntityTypeShape EntityType="CRM3Model.AvailableModules" Width="1.5" PointX="8" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.BuildingTypes" Width="1.5" PointX="1.5" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Citys" Width="1.5" PointX="1.5" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.ConnectedServices" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Contracts" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.CRM" Width="1.5" PointX="6" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Employees" Width="1.5" PointX="8" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.EquipmentInstallations" Width="1.5" PointX="10.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Equipments" Width="1.5" PointX="8" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Events" Width="1.5" PointX="8" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Gender" Width="1.5" PointX="1.5" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.KindsAndTypesService" Width="1.5" PointX="11" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Modules" Width="1.5" PointX="5.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.ProblemTypes" Width="1.5" PointX="3.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Raions" Width="1.5" PointX="1.5" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.ReasonForTerminations" Width="1.5" PointX="1.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.ResidentialAddress" Width="1.5" PointX="1.5" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Roles" Width="1.5" PointX="5.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Services" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.ServiceStatus" Width="1.5" PointX="3.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.ServiceTypes" Width="1.5" PointX="3.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Streets" Width="1.5" PointX="1.5" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.Subscribers" Width="1.5" PointX="1.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.TypeContracts" Width="1.5" PointX="1.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.TypeEquioment" Width="1.5" PointX="5.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM3Model.TypeOfServices" Width="1.5" PointX="3.75" PointY="14.375" IsExpanded="true" />
+        <AssociationConnector Association="CRM3Model.FK_Module_Modules" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Module_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Raions_BuildingTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_ResidentialAddress_Citys" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_ConnectedServices_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_ConnectedServices_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Contracts_ReasonForTerminations" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Contracts_Subscribers" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Contracts_TypeContracts" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_CRM_ProblemTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_CRM_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_CRM_ServiceStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_CRM_ServiceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_CRM_Subscribers" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_CRM_TypeOfServices" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Employees_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_EquipmentInstallations_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_EquipmentInstallations_Equipments" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_EquipmentInstallations_Subscribers" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Equipments_TypeEquioment" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Events_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Subscribers_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_KindsAndTypesService_ServiceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_KindsAndTypesService_TypeOfServices" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_ResidentialAddress_Raions" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_ResidentialAddress_Streets" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM3Model.FK_Subscribers_ResidentialAddress" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
